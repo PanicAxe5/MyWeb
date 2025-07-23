@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000500;
+}
+
+
+
+h1{
+    color: #efa00b;
+    font-size:80px;
+    /*esta es la parte de la laetra cursiva que está referenciada*/
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /**/
+}
+h2{
+    color: #efa00b;
+    text-align: center;
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+}
+h3{
+    color: #fffdfd;
+    /*LETRA NORMALITA*/
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /**/
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+.header button{
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    padding: auto;
+    margin:3px;
+    color: #efa00b;
+    background-color: #000500;
+    border-radius:20px;
+    border: 2px solid #efa00b;
+    box-shadow: 0 0 5px #efa00b;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.header button:hover{
+    background-color:#efa00b;
+    font-weight: bold;
+    color:#000500;
+    border: 2px solid #efa00b;
+    transform: scale(1.05);
+    transform: translateY(-5px); 
+}
+.content{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    
+    margin:auto;
+    
+}
+.menu-list{
+    list-style: none;
+    text-align: center;
+}
+.menu-list:hover{
+    border: 2px solid #efa00b;
+    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 0 5px #efa00b;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    
+    
+}
+.menu-list:hover .item-footer p {
+    color: #efa00b;
+    transition: color 0.3s ease;
+}
+.home{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    padding: 10px 20px;
+    
+    
+    border: none;
+    border-radius: 10px;
+    
+    
+    
+    scroll-behavior: smooth;
+}
+
+/*ONDAS DEL FONDO*/
